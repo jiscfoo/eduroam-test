@@ -1,0 +1,28 @@
+45.1.	IPv6 Tunnel Broker NAT traversal:				UDP/3653;TCP/3653 egress and established.
+45.2.	IPv6 Tunnel Broker Service:	IP protocol 41 egress and established.
+45.3.	IPSec NAT traversal: 		UDP/4500 egress and established.
+45.4.	Cisco IPSec NAT traversal:	UDP/10000; TCP/10000 egress and established.
+45.5.	PPTP:					IP protocol 47 (GRE) egress and established; TCP/1723 egress and established.
+45.6.	OpenVPN: 				UDP/1194; TCP/1194 egress and established.
+45.7.	NTP: 					UDP/123
+45.8.	SSH: 					TCP/22 egress and established.
+45.9.	HTTP: 					TCP/80 egress and established.
+45.10.	HTTPS: 					TCP/443 egress and established.
+45.11.	LDAPS: 					TCP/636 egress and established.
+45.12.	IMSP: 					TCP/406 egress and established.
+45.13.	IMAP4: 					TCP/143 egress and established.
+45.14.	IMAP3: 					TCP/220 egress and established.
+45.15.	IMAPS: 					TCP/993 egress and established.
+45.16.	POP3S: 					TCP/995 egress and established.
+45.17.	Passive (S)FTP: 			TCP/21 egress and established.
+45.18.	SMTPS: 					TCP/465 egress and established.
+45.19.	Message submission: 		TCP/587 egress and established.
+45.20.	RDP: 					TCP/3389 egress and established.
+45.21.	VNC: 					TCP/5900 egress and established.
+45.22.	Citrix: 					TCP/1494 egress and established.
+45.23.	AFS: 					UDP/7000 through UDP/7007 inclusive.
+45.24.	ESP: 					IP protocol 50 egress and established
+45.25.	AH: 						IP protocol 51 egress and established
+45.26.	ISAKMP and IKE: 			UDP/500.
+45.27.	SQUID Proxy:				TCP/3128 egress and established
+45.28.	HTTP Proxy:				TCP/8080 egress and established
