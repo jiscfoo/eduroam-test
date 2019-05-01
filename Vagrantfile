@@ -1,6 +1,6 @@
 Vagrant.configure("2") do |config|
 
-  config.vm.box = "generic/alpine38"
+  config.vm.box = "generic/alpine39"
 
   config.vm.provider "virtualbox" do |v|
     v.default_nic_type = "virtio"
