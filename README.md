@@ -8,7 +8,7 @@ It is intended as for system and network administrators to verify their local fi
 Caveats
 -------
 
- 1. Some firewalls do not some UDP packets which are _invalid_ for the port being tested's protocol (mainly this is IPSEC on `udp/500`).
+ 1. Some firewalls do not pass some UDP packets which are _invalid_ for the port being tested's protocol (mainly this is IPSEC on `udp/500`).
  2. The endpoint currently only supports the TCP or UDP protocol checks, not the other IP protocols.
 
 Running
