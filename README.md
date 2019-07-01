@@ -14,11 +14,11 @@ Caveats
 Running
 -------
 
-Three options are available, depending on the local toolset available:
+Various options are available, depending on the local toolset available:
 
  1. Vagrant and a local hypervisor (eg. [Virtualbox](https://www.virtualbox.org/))
  2. Docker
- 3. A downloadable _appliance_ to run within a local hypervisor (coming..?)
+ 4. Directly run the `eduroam-test.sh` script 
 
 All three end up running the supplied `eduroam-test.sh` shell script.
 
@@ -73,24 +73,12 @@ docker rmi jisc/eduroam-test
 docker rmi base/archlinux     # optional
 ```
 
-### VirtualBox Appliance
+### Run the script
+Due to the options used, the nmap script requires root privileges. Please review the script before running as root!
 
-This is a virtual appliance based on Alpine Linux with the required utilities pre-installed.
-
-#### Initial setup
-
-In the VirtualBox manager, _Import_ the `.ova` file and follow the wizard.
-
-#### Running the checks
-
- 1. Start the VM and wait for it to boot
- 2. Log in as root with no password
- 3. Run `bash eduroam-test/eduroam-test.sh`
- 4. When finished, run `poweroff`
-
-#### Tidy up
-
-Delete the VM (and remove all files) from the manager
+```bash
+sudo ./eduroam-test.sh
+```
 
 Output
 ------
